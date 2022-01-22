@@ -1,4 +1,4 @@
-<a style="text-align:center;" href="https://marcojunio.github.io/code-challenger-selfcare-landing/">Resultado</a>
+Para ver o resultado <a style="text-align:center;" href="https://marcojunio.github.io/code-challenger-selfcare-landing/">clique aqui</a>
 
 <br />
 <p align="center">
