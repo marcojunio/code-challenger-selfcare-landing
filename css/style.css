@@ -1,0 +1,247 @@
+body{
+    box-sizing: content-box;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Lato';
+}
+
+:root{
+    --green: #5CA720;
+    --black:#161616;
+    --primary-gray:#A5A1A1;
+    --secondary-gray: #F9F9F9;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+.content-header{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+    justify-content: space-between;
+}
+
+.logo{
+    color:var(--black);
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.logo span{
+    margin-left: 5px;
+}
+
+.options{
+    color: var(--green);
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.options ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px
+}
+
+.content-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+    color: var(--black);
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex-direction: row;
+}
+
+main img{
+    width: 400px;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin : 50px;
+}
+
+.text-card{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.text-card h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.text-card span{
+    font-size: 1.4rem;
+}
+
+.digit{
+    color: var(--black);
+}
+
+.value{
+    color:var(--green);
+}
+
+.content-infos-company{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px 50px;
+    background-color: var(--secondary-gray);
+}
+
+.helper-company{
+    color:var(--black);
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.helper-company ul{
+    list-style-type: none;
+}
+
+.helper-company ul li{
+    padding: 5px;
+}
+
+.hr-line{
+    color: var(--primary-gray);
+    opacity: 1;
+    height: 1px;
+    border-bottom: 1px solid #e2e2e2;
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.newslatter h3{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.input-inscribe input[type='email']{
+    outline: none;
+    height: 40px;
+    width: 250px;
+    padding: 0 5px;
+    border-radius: 3px;
+    border:1px solid rgba(97, 97, 97, 0.205);
+    font-size: 1.05rem
+}
+
+.input-inscribe button{
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background-color: var(--green);
+    color:white;
+    font-weight: 900;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 0;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 50px;
+}
+
+.social-media ul li{
+    display: inline-block;
+    padding:4px;
+    color:var(--green);
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media img{
+    width: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment img{
+    margin: 5px;
+}
+
+@media (max-width:768px){
+
+    main img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .content-infos-company{
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .social-media img{
+        width: 60px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .newslatter{
+        margin-top: 10%;
+        margin-left: 5px;
+    }
+
+    .newslatter{
+        display: block;
+        width: 100%;
+    }
+
+    .input-inscribe input[type='email']{
+        display: block;
+        width: 98%;
+    }
+
+    .input-inscribe button{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    
+}
