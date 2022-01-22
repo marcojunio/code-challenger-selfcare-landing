@@ -1,4 +1,4 @@
-<a href="https://marcojunio.github.io/code-challenger-selfcare-landing/">Resultado</a>
+<a align="center" href="https://marcojunio.github.io/code-challenger-selfcare-landing/">Resultado</a>
 
 <br />
 <p align="center">
